@@ -33,8 +33,8 @@
 
                     $videoId = basename(parse_url($url, PHP_URL_PATH));
                     $embedUrl = "https://www.youtube.com/embed/Bg0sCIVuv-E" . $videoId;
-                    echo '<iframe width="560" height="315" src="' . $embedUrl . '" frameborder="0" allowfullscreen class="rounded-4"></iframe>';
                     ?>
+                    <iframe src="<?= $embedUrl ?>" width="560" height="315" allowfullscreen></iframe>
                     <!-- <iframe width="560" height="315" src="https://youtu.be/embed/Bg0sCIVuv-E" frameborder="0" allowfullscreen class="rounded-4"></iframe> -->
                 </div>
                 <table class="table table-dark">
