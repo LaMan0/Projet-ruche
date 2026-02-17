@@ -29,13 +29,12 @@
                 </div>
                 <div class="col-sm-7">
                     <?php
+                        // ID de la vidéo YouTube
                         $url = "https://youtu.be/Bg0sCIVuv-E";
-
-                    $videoId = basename(parse_url($url, PHP_URL_PATH));
-                    $embedUrl = "https://www.youtube.com/embed/Bg0sCIVuv-E" . $videoId;
+                        $videoId = basename(parse_url($url, PHP_URL_PATH));
+                        $embedUrl = "https://www.youtube.com/embed/" . $videoId;
                     ?>
-                    <iframe src="<?= $embedUrl ?>" width="560" height="315" allowfullscreen></iframe>
-                    <!-- <iframe width="560" height="315" src="https://youtu.be/embed/Bg0sCIVuv-E" frameborder="0" allowfullscreen class="rounded-4"></iframe> -->
+                    <iframe src="<?= $embedUrl ?>" width="560" height="315" allowfullscreen class="rounded-4"></iframe>
                 </div>
                 <table class="table table-dark">
                     <tr class="table-active">
