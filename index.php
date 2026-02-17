@@ -28,7 +28,7 @@
                 <div class="col-sm-1">
                 </div>
                 <div class="col-sm-7">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z-Nwo-ypKtM" frameborder="0" allowfullscreen class="rounded-4"></iframe>
+                    <iframe width="560" height="315" src="https://youtu.be/jmuaeLyDWhw" frameborder="0" allowfullscreen class="rounded-4"></iframe>
                 </div>
                 <table class="table table-dark">
                     <tr class="table-active">
