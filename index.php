@@ -27,12 +27,11 @@
                 </div>
                 <div class="col-sm-1">
                 </div>
-                <div class="col-sm-7">
-                    <?php
+                <div class="col-sm-7"><?php
                         // ID de la vidéo YouTube
                         $url = "https://youtu.be/Bg0sCIVuv-E";
                         $videoId = basename(parse_url($url, PHP_URL_PATH));
-                        $embedUrl = "https://www.youtube.com/embed/" . $videoId;
+                        $embedUrl = "https://www.youtube.com/embed/Bg0sCIVuv-E" . $videoId;
                     ?>
                     <iframe src="<?= $embedUrl ?>" width="560" height="315" allowfullscreen class="rounded-4"></iframe>
                 </div>
